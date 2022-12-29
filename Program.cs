@@ -22,3 +22,10 @@ for (int i = 0; i < arr.Length; i++)
         j++;
     }
 }
+
+for (int i = 0; i < rez.Length; i++)
+{
+        Console.Write($"{rez[i]} ");
+}
+
+
