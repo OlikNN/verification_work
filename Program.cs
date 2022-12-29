@@ -10,3 +10,15 @@
 string[] arr = { "hello", "2", "world", ":-)" };
 string[] rez = new string[4];
 
+int j =0;
+for (int i = 0; i < arr.Length; i++)
+{
+
+    Console.WriteLine($"{i} {arr[i].Length}");
+    if (arr[i].Length <= 3)
+    {
+        Console.WriteLine($"Нашли {arr[i]}");
+        rez[j] = arr[i]; 
+        j++;
+    }
+}
